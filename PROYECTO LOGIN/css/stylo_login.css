@@ -1,0 +1,87 @@
+/*Fondo de pantalla*/
+body{
+    background: linear-gradient(to bottom right, #845EEE,#212936, #121826);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/*Centrar el cuadrado*/
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/*Cuadrado formulario*/
+#container{
+   
+    width: 30%;
+    height: 380px;
+    background-color: #394150;
+    border-radius: 15px;
+
+    border: 0.5px solid;
+    color: aliceblue;
+    border-color: #A1A1A9;
+}
+
+.container_formulario{
+    display: block; 
+   padding-top: 5%;
+   padding-left: 10%; 
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    color: #8F9299;
+}
+
+input{
+    display: block;
+    margin-bottom: 10px;
+    color: #8F9299;
+    border-radius: 10px;
+    border-color: #A1A1A9;
+    width: 80%;
+    height: 40px;
+    background-color: #394150;
+    margin-bottom: 35px;
+    
+}
+
+.boton button{
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    color: #E5E7EB;
+    background-color: #652CD1;
+    border: 0px;
+    font-size: 15px;
+    margin-left: 25%;
+}
+
+/*CSS de topics*/
+.btn{
+    display: block;
+    margin-bottom: 10px;
+    color: #8F9299;
+    border-radius: 10px;
+    border-color: #A1A1A9;
+    width: 80%;
+    height: 40px;
+    background-color: #394150;
+    margin-bottom: 35px;
+    
+
+}
+
+/*Cambiar el formato de los datos mostrados.*/
+#titulo_d{
+    color: #8F9299;
+}
